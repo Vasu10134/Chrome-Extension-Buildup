@@ -1,0 +1,20 @@
+{
+  "name": "Random Facts",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "A simple Chrome extension that fetches fun and interesting random facts using the API Ninjas service. Instantly displays a new fact every time you open the popup, making learning quick and enjoyable. Designed with a clean UI, fast loading, and a lightweight build.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "logo.png"
+  },
+
+  "icons": {
+    "128": "logo.png"
+  },
+
+  "permissions": [],
+
+  "host_permissions": [
+    "https://api.api-ninjas.com/*"
+  ]
+}
